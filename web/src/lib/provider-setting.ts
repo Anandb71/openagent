@@ -521,6 +521,7 @@ const openaiModels = [
   // GPT-3.5 (legacy)
   {id: "gpt-3.5-turbo", name: "gpt-3.5-turbo"},
   // Image generation models (latest first)
+  {id: "gpt-image-2.6-flare", name: "gpt-image-2.6-flare"},
   {id: "gpt-image-2.5-sunburst", name: "gpt-image-2.5-sunburst"},
   {id: "gpt-image-2.5-flare", name: "gpt-image-2.5-flare"},
   {id: "gpt-image-2", name: "gpt-image-2"},

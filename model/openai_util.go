@@ -67,6 +67,7 @@ func getOpenAiModelType(model string) string {
 
 	// Image-generation endpoint.
 	imageModels := []string{
+		"gpt-image-2.6-flare",
 		"gpt-image-2.5-sunburst", "gpt-image-2.5-flare", "gpt-image-2",
 		"gpt-image-1.5", "gpt-image-1", "gpt-image-1-mini", "chatgpt-image-latest",
 	}

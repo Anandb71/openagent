@@ -429,7 +429,7 @@ export default function ProviderEditPage() {
         const category = ctx.record.category;
         let subType: string | undefined;
         if (category === "Model") {
-          subType = value === "OpenAI Compatible" ? "gpt-image-2" : ProviderSetting.getModelProviderMetadata(value).defaultSubType;
+          subType = value === "OpenAI Compatible" ? "gpt-image-2.6-flare" : ProviderSetting.getModelProviderMetadata(value).defaultSubType;
         } else if (category === "Embedding") {
           subType = EMBEDDING_DEFAULT_SUB_TYPES[value];
         } else if (category === "Text-to-Speech" && value === "Alibaba Cloud") {
